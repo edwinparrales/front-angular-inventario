@@ -1,9 +1,10 @@
 footer{
-  position:fixed;
+position:fixed;
 left:0px;
 bottom:0px;
 width: 100%;
-background: #0d6efd;
 
+text-align: center;
+color:white;
 
 }

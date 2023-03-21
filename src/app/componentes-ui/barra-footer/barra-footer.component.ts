@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./barra-footer.component.css']
 })
 export class BarraFooterComponent {
-
+  fecha:any=new Date().getFullYear();
 }

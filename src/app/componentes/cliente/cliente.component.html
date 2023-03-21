@@ -1,29 +1,48 @@
-<div class="container mt-4">
-  <label for="nombrecliente">Nombre:</label>
-<input type="text" name="nombrecliente" id="nombrecliente" [(ngModel)]="nombre">
-<button (click)="agregarCliente()">Adicionar</button>
-<div >
-
-    <li *ngFor="let cliente of listaCliente; index as id"> codigo{{id}} nombre {{cliente}} <input type="button"
-      value="-" (click)="eliminarCliente(cliente)"></li>
-</div>
-
 <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+<div class="row m-4">
+  <div class="col-auto">
+      <label for="" class="form-label">Name</label>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+  <div class="col-6">
+    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  <div class="col-auto">
+    <small id="helpId" class="form-text text-muted">Help text</small>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</div>
+<div class="row m-4">
+  <div class="col-auto">
+      <label for="" class="form-label">Name</label>
+  </div>
+  <div class="col-6">
+    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+  </div>
+  <div class="col-auto">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+</div>
+<div class="row m-4">
+  <div class="col-auto">
+      <label for="" class="form-label">Name</label>
+  </div>
+  <div class="col-6">
+    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+  </div>
+  <div class="col-auto">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
+</div>
+<div class="row m-4">
+  <div class="col-auto">
+      <label for="" class="form-label">Name</label>
+  </div>
+  <div class="col-6">
+    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+  </div>
+  <div class="col-auto">
+    <small id="helpId" class="form-text text-muted">Help text</small>
+  </div>
 </div>
 
+</form>
 
